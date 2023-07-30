@@ -1,0 +1,99 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.mainheader a.nav-link.active {
+    color:blue !important;
+    font-weight: 600;
+}
+
+.mainheader a.nav-link {
+    color: black !important;
+    font-weight: 600;
+}
+
+.mainheader span.navbar-text {
+    color: black;
+    font-weight: 700;
+}
+
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-item img{
+    height: auto;
+    width:100% ;
+    object-fit: cover;
+}
+
+.carousel-item h5{
+    font-weight: 800;
+}
+
+.carousel-item p{
+    color:rgb(245, 166, 69);  
+    font-weight: 600;
+}
+
+.imagebox{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+.imagebox img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.managament{
+    margin: auto;
+    padding: 20px;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.image{
+    height: 500px;
+    width: 500px;
+   
+
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(155, 148, 148);
+}
+
+
+
+.row{
+    justify-content:space-between; 
+}
+
+.col-lg-4{
+  background-color: rgb(255, 219, 173) !important;
+  border-radius: 20px;
+  height: auto;
+  width: 32%;
+}
+
+.h5.card.title {
+    padding: 3px 0px;
+}
